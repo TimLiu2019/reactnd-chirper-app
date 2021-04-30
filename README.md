@@ -1,8 +1,11 @@
 ## Chirper Project
 
-a project based on React-Redux
+Starter code from udacity
 
-## steps
+## steps to starter
+
+clone the Project - git@github.com:udacity/reactnd-chirper-app.git
+install the dependencies - npm install
 
 ## License
 
