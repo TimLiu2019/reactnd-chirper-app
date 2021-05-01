@@ -1,10 +1,10 @@
-import { combindReducers } from "redux";
-import autheduser from "./authedUser";
+import { combineReducers } from "redux";
+import authedUser from "./authedUser";
 import tweets from "./tweets";
 import users from "./users";
 
-export default combindReducers({
-  autheduser,
+export default combineReducers({
+  authedUser,
   tweets,
   users
 });
