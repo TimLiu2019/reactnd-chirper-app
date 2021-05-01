@@ -9,6 +9,12 @@
 1. clone the Project - git@github.com:udacity/reactnd-chirper-app.git
 2. install the dependencies - npm install
 
+## steps to npm
+
+1. npm i redux
+2. npm i react-redux
+3. npm i redux-thunk
+
 ## License
 
 MIT
