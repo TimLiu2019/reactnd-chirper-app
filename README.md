@@ -14,7 +14,8 @@
 1. npm i redux
 2. npm i react-redux
 3. npm i redux-thunk
-4. yarn react-icons
+4. yarn add react-icons
+5. yarn add react-redux-loading
 
 ## License
 
