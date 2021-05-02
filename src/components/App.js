@@ -8,7 +8,11 @@ class App extends Component {
     this.props.dispatch(handleInitialData());
   }
   render() {
-    return <div>{this.props.loading === true ? null : <Dashboard />}</div>;
+    return (
+      <div>
+        {this.props.loading === true ? <h3>Loading</h3> : <Dashboard />}
+      </div>
+    );
   }
 }
 function mapStateToProps({ authedUser }) {
@@ -17,4 +21,4 @@ function mapStateToProps({ authedUser }) {
   };
 }
 
-export default connect()(App);
+export default connect(mapStateToProps)(App);
